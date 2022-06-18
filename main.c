@@ -38,7 +38,7 @@ int main(){
     printf("%d, %d", resp == 1, resp);
 
     if(resp == 1){
-        stud_file = fopen("C:\\details.txt", "w");
+        stud_file = fopen("details.txt", "w");
 
 
         fprintf(stud_file, "%s %s, %s, %s, %s", first_name, last_name, reg_no, branch, sec);
